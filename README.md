@@ -1,8 +1,17 @@
 # A03
-This repository is for the class IS117. Projects will be added here 
+This repository is for the class IS117. Projects will be added here.
+Abdullah Mumin
+UCID: aam286 
 
 ## Github Tutorial
 
+#### Create  an account
+Github is a web-based Git repository hosting service. It offers all of the distributed revision control and source code management functionally.
+A step-by-step instruction provided below:
+<br>
+* Go to [GitHub](github.com) and create and acount.
+* Create a repository, give it a proper name. Remember, you will need the name included in the url later on.
+* 
 
 
 
@@ -25,9 +34,8 @@ This repository is for the class IS117. Projects will be added here
 
 
 
+
 ## Part 2: Definition
-
-
 
 * **Branch**: A separate repository that allows user to commit changes the code without changing anything to the main branch. User can merger the branch with main/master branch anytime later.
 * **Clone**: User can get a local copy of the remote repository using `git clone` command. "`git clone repositoryURLhere`
@@ -41,3 +49,30 @@ This repository is for the class IS117. Projects will be added here
 * **Pull**: `git pull` command get the files from remote server and updates the local repository.
 * **Remote**: A server that is global and accessible by multiple users from different places via internet.
 * **Repository**: A server folder that holds all the files of a project, its edit history, and recent changes.
+
+
+### Step 1-Make Account
+Go to [GitHub](github.com) and create an account for **GitHub**.
+![Account Creation](https://www.w3schools.com/git/img_githup_sign_up.png)
+### Step 2-Make Repository
+Click plus button dropdown in the upper righthand corner of the site on the navigation bar. Click the button that says `New repository`.
+![Repo Creation](https://www.w3schools.com/git/img_github_new_repo.png)
+Fill in the info for your repository. This one is for a W3 Schools [tutorial](https://www.w3schools.com/git/git_remote_getstarted.asp?remote=github). We will be following that tutorial for the rest of this.
+![Repo Info](https://www.w3schools.com/git/img_github_new_repo_create.png)
+### Step 3-It's time to Push
+Now the first time is going to be tough but we are going to **push** that repo we created in the GIT tutorial to your new GitHub account. Now breathe with me as we take our GitHub username and the GitHub repo name and combine into a URL like the one below.
+> https://github.com/cc756/A03.git
+Now we take this URL and breathe out as we head back to our command line.
+```
+git remote add origin https://github.com/cc756/A03.git
+```
+`git remote add origin URL` specifies that you are adding a **remote** repository, with the specified `URL`, as an `origin` to your local Git repo.
+Okay it's time for that big push! I'll hold your hand if you need it as if this is your first time you will get a notification to authenticate.
+
+**3**
+
+**2**
+
+**1**
+
+**PUSH!**
